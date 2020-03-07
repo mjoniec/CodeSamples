@@ -9,29 +9,29 @@ http://localhost:8080/weatherforecast
 https://hub.docker.com/repository/docker/mjdocker31/test2api
 
 ## status check
-docker -v
-docker ps
-docker image list
-docker container list -all
-docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" metalsprices_test1
+- docker -v
+- docker ps
+- docker image list
+- docker container list -all
+- docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" metalsprices_test1
 
 ## build
-docker build -t test2 . 
-docker run -d -p 8080:80 --name myapp test2
+- docker build -t test2 . 
+- docker run -d -p 8080:80 --name myapp test2
 
 ## cleanup
 
-docker rmi test2
-docker stop 9d
-docker container rm 9d
+- docker rmi test2
+- docker stop 9d
+- docker container rm 9d
 
 ## hub
-docker login -u "user" -p "password" docker.io
-docker push mjdocker31/test2api
+- docker login -u "user" -p "password" docker.io
+- docker push mjdocker31/test2api
 
 ## net core
-dotnet new webapp -o aspnetcoreapp
-dotnet run --MetalsPrices.Api
+- dotnet new webapp -o aspnetcoreapp
+- dotnet run --MetalsPrices.Api
 
 ## useful links:
 
