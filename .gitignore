@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Test2.Api/obj
+/.vs/Test2/v16/Server/sqlite3
+/obj/Docker
+/Test2.Model/obj
+/Test2.Api/obj
