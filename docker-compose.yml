@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  test2.api:
+    image: mjdocker31/test2api
+    build:
+      context: .
+      dockerfile: Test2.Api/Dockerfile
