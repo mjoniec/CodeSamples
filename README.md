@@ -45,16 +45,20 @@ https://hub.docker.com/repository/docker/mjdocker31/test2api
 
 ## useful links:
 
-### Azure
+### Azure Deploy
 https://medium.com/@pugillum/asp-net-core-2-web-api-docker-and-azure-f84e28aa6267
 
-### Localhost
+### Localhost run
 https://docs.docker.com/engine/examples/dotnetcore/
 
-### Other
+### Dockerfile
 
 https://softchris.github.io/pages/dotnet-dockerize.html#why
 
+### VS project setup
+
 https://docs.microsoft.com/pl-pl/visualstudio/containers/tutorial-multicontainer?view=vs-2019
+
+### Docker Hub push common error
 
 https://forums.docker.com/t/docker-push-error-requested-access-to-the-resource-is-denied/64468/6
