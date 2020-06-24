@@ -2,9 +2,19 @@
 
 ## test
 
-https://dockerazuretest2.azurewebsites.net/weatherforecast
+(docker, 8080 as defined in build)
 
 http://localhost:8080/weatherforecast
+
+(regular launch)
+
+http://localhost:8080/weatherforecast
+
+(Azure host on line when alive)
+
+https://dockerazuretest2.azurewebsites.net/weatherforecast
+
+(published)
 
 https://hub.docker.com/repository/docker/mjdocker31/test2api
 
