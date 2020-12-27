@@ -26,14 +26,18 @@ https://hub.docker.com/repository/docker/mjdocker31/test2api
 - docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" metalsprices_test1
 
 ## build
-- docker build -t test2 . 
-- docker run -d -p 8080:80 --name myapp test2
+- docker build -t image_name . 
+- docker run -d -p 8080:80 --name container_name image_name
+
+-d: This is short for detach and means that the Docker container will run in the background. We won’t be seeing any output from the application that’s running inside the container. If we want to see that output, we can use:
+docker logs container_name
 
 ## cleanup
 
 - docker rmi test2
-- docker stop 9d
-- docker container rm 9d
+- docker rm container_name
+- docker stop 9d99
+- docker container rm 9d99
 
 ## hub
 - docker login -u "user" -p "password" docker.io
