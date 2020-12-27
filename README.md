@@ -21,7 +21,9 @@ https://hub.docker.com/repository/docker/mjdocker31/test2api
 ## status check
 - docker -v
 - docker ps
+- docker ps --all
 - docker image list
+- docker image ls
 - docker container list -all
 - docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" metalsprices_test1
 
