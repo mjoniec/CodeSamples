@@ -36,10 +36,9 @@ docker logs container_name
 
 ## cleanup
 
-- docker rmi test2
-- docker rm container_name
-- docker stop 9d99
-- docker container rm 9d99
+- docker rmi image_id
+- docker rm container_id
+- docker stop container_id
 
 ## hub
 - docker login -u "user" -p "password" docker.io
