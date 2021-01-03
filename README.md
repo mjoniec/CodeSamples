@@ -40,6 +40,28 @@ docker logs container_name
 - docker rm container_id
 - docker stop container_id
 
+## compose
+
+- docker-compose up
+- docker-compose up --build --force-recreate --no-deps
+
+  --force-recreate    Recreate containers even if their configuration
+                      and image haven't changed.
+                      
+  --build             Build images before starting containers.
+  
+  --no-deps           Don't start linked services.
+
+- alternate restart:
+
+    stop docker compose: $ docker-compose down
+
+    remove the container: $ docker system prune -a
+
+    start docker compose: $ docker-compose up -d
+
+docker system prune -a will delete all images, even ones for other projects. It's recommended against the usage of this.
+
 ## hub
 - docker login -u "user" -p "password" docker.io
 - docker push mjdocker31/test2api
