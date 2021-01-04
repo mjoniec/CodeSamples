@@ -41,6 +41,7 @@ docker logs container_name
 - docker rm container_id
 - docker stop container_id
 - docker container prune -f (remove all containers, not asking for confirmation)
+- docker-compose down - stops and removes containers
 
 ## compose
 
