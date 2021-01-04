@@ -40,6 +40,7 @@ docker logs container_name
 - docker rmi image_id
 - docker rm container_id
 - docker stop container_id
+- docker container prune -f (remove all containers, not asking for confirmation)
 
 ## compose
 
