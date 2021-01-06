@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ThreadingTest/obj/Debug
+/DocxToPdfConverter/obj/Debug
+/packages/Microsoft.Office.Interop.Word.15.0.4797.1003
+/ThreadingTest/bin/Debug
+/.vs/CodeSamples/v16
+/CodeSamples/obj/Debug
+/DocxToPdfConverter/bin/Debug
+/CodeSamples/App.config
+/CodeSamples/CodeSamples.csproj
+/CodeSamples/Program.cs
+/CodeSamples/Properties/AssemblyInfo.cs
