@@ -1,3 +1,5 @@
+Random samples that do random things. Some are a part of net solution, some are standalone. 
+
 ## ThreadingTest
 
 usage of Thread and ThreadPool, description in .cs file
@@ -23,3 +25,7 @@ setup new node api
 info
 
 - call async method is responsive even if another client called parallel method and it is in the middle of calculation
+
+## TypeScript
+
+some simple code example on js vs ts, just open the .html file to launch
