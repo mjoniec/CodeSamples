@@ -30,6 +30,10 @@ info
 
 some simple code example on js vs ts, just open the .html file to launch
 
-## Bitask
+## BiTask
 
-Task for some demo BI and project. Includes report document
+Some BI project. Task description and report documents included.
+
+## Xmltask
+
+XML deserializer and and http api with mssql. Task description and report documents included.
