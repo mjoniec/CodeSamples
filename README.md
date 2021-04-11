@@ -34,6 +34,6 @@ some simple code example on js vs ts, just open the .html file to launch
 
 Some BI project. Task description and report documents included.
 
-## Xmltask
+## XmlTask
 
 XML deserializer and and http api with mssql. Task description and report documents included.
