@@ -7,7 +7,7 @@ namespace Data.Access.Contexts
     {
         public RequestContext()
         {
-            Database.Connection.ConnectionString = "Server = tcp:marjondemoserver.database.windows.net,1433; Initial Catalog = XmlTest; Persist Security Info = False; User ID = mjoniec; Password = paste here; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;";
+            Database.Connection.ConnectionString = "paste here";
         }
 
         public DbSet<Request> Requests { get; set; }
