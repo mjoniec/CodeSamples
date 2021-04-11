@@ -1,0 +1,116 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9e7e4452-21e0-41a7-a651-5ccd342c9863" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Is Bi Test Dw2</ID>
+  <Name>Is Bi Test Dw2</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Is Bi Test Dw2</DataSourceID>
+  <Schema>
+    <xs:schema id="Is_x0020_Bi_x0020_Test_x0020_Dw2" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Is_x0020_Bi_x0020_Test_x0020_Dw2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="cd415773-61ac-448b-9d6f-4d95d02bdfe8">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Customers" msprop:design-time-name="13af970f-1eff-4342-9cec-a1366506c792" msprop:DbTableName="Customers" msprop:FriendlyName="Customers" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="58b55b36-ee52-472a-8f3a-0bea104ab2cf" msprop:DbColumnName="Id" msprop:FriendlyName="Id" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Employees" msprop:design-time-name="6db7cb19-8af9-4cc1-8f9d-27d558ec4aa6" msprop:DbTableName="Employees" msprop:FriendlyName="Employees" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="ab61b7d8-f64d-4cc2-a96d-c32b80cb32e9" msprop:DbColumnName="Id" msprop:FriendlyName="Id" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_PriceDiscountQuantities" msprop:design-time-name="f6885e68-effd-476f-8728-d81c67d5fc55" msprop:DbTableName="PriceDiscountQuantities" msprop:FriendlyName="PriceDiscountQuantities" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="41ac4cae-c840-4c15-8f58-1c0905c28d61" msprop:DbColumnName="Id" msprop:FriendlyName="Id" type="xs:int" />
+                  <xs:element name="CustomerId" msprop:design-time-name="d8485b7d-3c3e-4911-8993-837eff2b178c" msprop:DbColumnName="CustomerId" msprop:FriendlyName="CustomerId" type="xs:int" />
+                  <xs:element name="EmployeeId" msprop:design-time-name="71d9fb61-dbbb-4fe9-98be-574a8af7f191" msprop:DbColumnName="EmployeeId" msprop:FriendlyName="EmployeeId" type="xs:int" />
+                  <xs:element name="ProductId" msprop:design-time-name="2bdcaf88-5df8-44dc-9813-3e0d31ab94f3" msprop:DbColumnName="ProductId" msprop:FriendlyName="ProductId" type="xs:int" />
+                  <xs:element name="Quantity" msprop:design-time-name="ab1d1d3b-eb87-45e8-b8ad-2c6401f2fd8f" msprop:DbColumnName="Quantity" msprop:FriendlyName="Quantity" type="xs:int" />
+                  <xs:element name="Price" msprop:design-time-name="42d1f33e-fb5f-4276-9be0-2f409a95897f" msprop:DbColumnName="Price" msprop:FriendlyName="Price" type="xs:float" />
+                  <xs:element name="Discount" msprop:design-time-name="8b13f681-1f97-4a1a-a72d-5f1fb9605382" msprop:DbColumnName="Discount" msprop:FriendlyName="Discount" type="xs:float" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Products" msprop:design-time-name="0c497751-11b4-4239-8d1b-51fda1fd7bae" msprop:DbTableName="Products" msprop:FriendlyName="Products" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="e9785ad2-3053-42b3-ac03-a56e57dbabc0" msprop:DbColumnName="Id" msprop:FriendlyName="Id" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Customers" />
+          <xs:field xpath="Id" />
+        </xs:unique>
+        <xs:unique name="dbo_Employees_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Employees" />
+          <xs:field xpath="Id" />
+        </xs:unique>
+        <xs:unique name="dbo_PriceDiscountQuantities_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_PriceDiscountQuantities" />
+          <xs:field xpath="Id" />
+        </xs:unique>
+        <xs:unique name="dbo_Products_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Products" />
+          <xs:field xpath="Id" />
+        </xs:unique>
+        <xs:keyref name="FK_dbo.PriceDiscountQuantities_dbo.Customers_CustomerId" refer="Constraint1">
+          <xs:selector xpath=".//dbo_PriceDiscountQuantities" />
+          <xs:field xpath="CustomerId" />
+        </xs:keyref>
+        <xs:keyref name="FK_dbo.PriceDiscountQuantities_dbo.Employees_EmployeeId" refer="dbo_Employees_Constraint1">
+          <xs:selector xpath=".//dbo_PriceDiscountQuantities" />
+          <xs:field xpath="EmployeeId" />
+        </xs:keyref>
+        <xs:keyref name="FK_dbo.PriceDiscountQuantities_dbo.Products_ProductId" refer="dbo_Products_Constraint1">
+          <xs:selector xpath=".//dbo_PriceDiscountQuantities" />
+          <xs:field xpath="ProductId" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Is_x0020_Bi_x0020_Test_x0020_Dw2 xmlns="" />
+  </Schema>
+</DataSourceView>

@@ -29,3 +29,7 @@ info
 ## TypeScript
 
 some simple code example on js vs ts, just open the .html file to launch
+
+## Bitask
+
+Task for some demo BI and project. Includes report document
