@@ -27,7 +27,7 @@
 /XmlTask/XmlTest/WebApi/obj
 /ThreadingTest/obj/Release
 /DocxToPdfConverter/obj/Release
-/Mqtt/MqttServer/Properties/launchSettings.json
 /BiTask/Integration Services Project/DataLoader/obj/Release
 /BiTask/Integration Services Project/DataLoader/obj/Debug
 /.vs
+/Mqtt/.vs/Mqtt/DesignTimeBuild/.dtbcache.v2
