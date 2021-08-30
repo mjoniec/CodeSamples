@@ -13,3 +13,21 @@
 /CodeSamples/CodeSamples.csproj
 /CodeSamples/Program.cs
 /CodeSamples/Properties/AssemblyInfo.cs
+/Mqtt/.vs/Mqtt/v16
+/Mqtt/MqttServer/bin/Debug/netcoreapp3.1
+/Mqtt/MqttServer/obj
+/Mqtt/MqttUtils/bin/Debug/netcoreapp3.1
+/Mqtt/MqttUtils/obj
+/Mqtt/Publisher/bin/Debug/netcoreapp3.1
+/Mqtt/Publisher/obj
+/Mqtt/Subscriber/bin/Debug/netcoreapp3.1
+/Mqtt/Subscriber/obj
+/XmlTask/XmlTest/DbUp/obj
+/XmlTask/XmlTest/Migrations/obj
+/XmlTask/XmlTest/WebApi/obj
+/ThreadingTest/obj/Release
+/DocxToPdfConverter/obj/Release
+/Mqtt/MqttServer/Properties/launchSettings.json
+/BiTask/Integration Services Project/DataLoader/obj/Release
+/BiTask/Integration Services Project/DataLoader/obj/Debug
+/.vs

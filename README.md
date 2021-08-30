@@ -37,3 +37,7 @@ Some BI project. Task description and report documents included.
 ## XmlTask
 
 XML deserializer and and http api with mssql. Task description and report documents included.
+
+## Mqtt
+
+Leftover code from unused mqtt functionality from Plane project. Server and Publisher works. Subscriber throws on launch. Contains Server, Common Utils lib and subscriber and publisher worker services. 
